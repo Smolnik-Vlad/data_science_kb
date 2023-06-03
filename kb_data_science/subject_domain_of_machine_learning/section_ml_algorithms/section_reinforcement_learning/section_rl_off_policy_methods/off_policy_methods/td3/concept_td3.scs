@@ -1,0 +1,32 @@
+concept_td3
+
+	<- sc_node_not_relation;
+	
+	<- concept_rl_off_policy_method;
+	
+	=> nrel_main_idtf: 
+		[TD3] 
+			(* <-lang_ru;; *);
+		[TD3] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Двойной запаздывающий глубокий детерминированный градиент политики] 
+					(* <-lang_ru;; *);
+				[Definition: Twin Delayed Deep Deterministic Policy Gradient] 
+					(* <-lang_en;; *);;
+
+				<-definition;;
+				<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Алгоритм обучения с подкреплением, который используется для решения задач контроля и управления. Он является усовершенствованным вариантом алгоритма DDPG (Deep Deterministic Policy Gradient) и использует несколько инновационных методов для повышения его эффективности и устойчивости.](*<-lang_ru;;*);
+					[A reinforcement learning algorithm used for control and management tasks. It is an improved version of the DDPG (Deep Deterministic Policy Gradient) algorithm and uses several innovative techniques to improve its efficiency and stability.](*<-lang_en;;*);;
+				*);;	
+		*);;

@@ -1,0 +1,16 @@
+section_subject_domain_of_data_science <-sc_node_struct;;
+section_subject_domain_of_data_science
+    => nrel_main_idtf: 
+      [Section. Subject domain Data Science] 
+      (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+      [Раздел. Предметная область Науки о данных]
+      (* <- lang_ru;; *);;
+
+
+section_subject_domain_of_data_science
+ <= nrel_section_decomposition:
+    section_subject_domain_of_data_analysis;
+    section_subject_domain_of_machine_learning;;
+
+section_subject_domain_of_data_science <- non_atomic_section;;

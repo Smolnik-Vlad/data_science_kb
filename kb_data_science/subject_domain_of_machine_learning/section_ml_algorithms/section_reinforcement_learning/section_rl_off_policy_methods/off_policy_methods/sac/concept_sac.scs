@@ -1,0 +1,32 @@
+concept_sac
+
+	<- sc_node_not_relation;
+	
+	<- concept_rl_off_policy_method;
+	
+	=> nrel_main_idtf: 
+		[SAC] 
+			(* <-lang_ru;; *);
+		[SAC] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Мягкий актор-критик] 
+					(* <-lang_ru;; *);
+				[Definition:  Soft Actor-Critic] 
+					(* <-lang_en;; *);;
+
+				<-definition;;
+				<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Алгоритм обучения с подкреплением, используемый для решения задачи обучения агента, который может выбирать действия на основе текущего состояния среды и получать награду за свои действия.](*<-lang_ru;;*);
+					[A reinforcement learning algorithm used to solve the problem of training an agent who can choose actions based on the current state of the environment and be rewarded for his actions.](*<-lang_en;;*);;
+				*);;	
+		*);;

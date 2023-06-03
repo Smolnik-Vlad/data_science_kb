@@ -1,0 +1,31 @@
+concept_rl_off_policy_method <- sc_node_class;;
+concept_reinforcement_learning->concept_rl_off_policy_method;;
+concept_rl_off_policy_method
+	
+	=> nrel_main_idtf: 
+		["Off-policy метод"] (* <-lang_ru;; *);
+		["Off-policy method"] (* <-lang_en;; *);;
+
+concept_rl_off_policy_method
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Метод без политики (off-policy)] 
+					(* <-lang_ru;; *);
+				[Definition: off-policy method]
+					(* <-lang_en;; *);;	
+
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Off-policy методы являются  подклассом алгоритмов обучения с подкреплением и основываются на использовании опыта, полученного из другой стратегии, отличной от текущей стратегии. В этом случае, агент не привязан к текущей стратегии и может использовать опыт, полученный из различных стратегий для обновления оценок.](*<-lang_ru;;*);
+					[Off-policy methods are a subclass of reinforcement learning algorithms and are based on the use of experience obtained from another strategy, different from the current strategy. In this case, the agent is not bound to the current strategy and can use the experience obtained from different strategies to update the estimates.](*<-lang_en;;*);;
+					
+				*);;
+				
+		*);;

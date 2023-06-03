@@ -1,0 +1,31 @@
+//Описание класса concept_ml_algorithms	
+concept_ml_algorithms <- sc_node_class;;
+concept_ml_algorithms
+	=> nrel_main_idtf:
+		[Алгоритмы машинного обучения]
+			(* <- lang_ru;; *);
+	=> nrel_main_idtf:
+		[Machine learning algorithms]
+			(* <- lang_en;; *);
+
+
+    <-rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+            =>nrel_main_idtf: [Определение: алгоритмы машинного обучения](*<-lang_ru;;*);;
+            =>nrel_main_idtf: [Definition: machine learning algorithms](*<-lang_en;;*);;
+        <-definition;;
+        <=nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [Алгоритм машинного обучения - это компьютерная процедура или метод, который используется для обучения компьютерной системы на основе опыта, т.е. данных, с целью сделать автоматические прогнозы или принимать решения на основе новых входных данных.](*<-lang_ru;;*);;
+                ->rrel_example:
+                [Machine Learning Algorithm is a computer procedure or method that is used to train a computer system based on experience, i.e., data, in order to make automatic predictions or make decisions based on new input data.](*<-lang_en;;*);;
+                
+            *);;
+    *);;
+
+concept_ml_algorithms
+    <= nrel_method: 
+        concept_machine_learning;;

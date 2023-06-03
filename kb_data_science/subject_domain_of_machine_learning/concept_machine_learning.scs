@@ -1,0 +1,32 @@
+
+//описание класса Machine Learning
+concept_machine_learning <-sc_node_class;;
+
+concept_machine_learning
+	=> nrel_main_idtf:
+		[Машинное обучение]
+			(* <- lang_ru;; *);
+	=> nrel_main_idtf:
+		[Machine Learning]
+			(* <- lang_en;; *);
+
+        <-rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+				=>nrel_main_idtf: [Определение: Машинное обучение](*<-lang_ru;;*);;
+				=>nrel_main_idtf: [Definition: Machine Learning](*<-lang_en;;*);;
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Подход в области искусственного интеллекта, который позволяет компьютерной системе извлекать знания из данных, обучаясь на них и принимая решения на основе полученных знаний. ](*<-lang_ru;;*);;
+					->rrel_example:
+					[An approach in the field of artificial intelligence that enables a computer system to extract knowledge from data by learning from it and making decisions based on the acquired knowledge.](*<-lang_en;;*);;
+					
+				*);;
+		*);;
+
+
+	
+		

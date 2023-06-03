@@ -1,0 +1,32 @@
+concept_ddpg
+
+	<- sc_node_not_relation;
+	
+	<- concept_rl_off_policy_method;
+	
+	=> nrel_main_idtf: 
+		[DDPG] 
+			(* <-lang_ru;; *);
+		[DDPG] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Глубокая детерминированная политика градиента] 
+					(* <-lang_ru;; *);
+				[Definition: Deep Deterministic Policy Gradient] 
+					(* <-lang_en;; *);;
+
+				<-definition;;
+				<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Алгоритм обучения с подкреплением, который применяется для решения задач контроля и управления в непрерывных пространствах действий. DDPG является расширением алгоритма DPG (Deterministic Policy Gradient), который был предложен ранее.](*<-lang_ru;;*);
+					[A reinforcement learning algorithm that is used to solve control and management problems in continuous action spaces. DDPG is an extension of the DPG (Deterministic Policy Gradient) algorithm that was proposed earlier.](*<-lang_en;;*);;
+				*);;	
+		*);;

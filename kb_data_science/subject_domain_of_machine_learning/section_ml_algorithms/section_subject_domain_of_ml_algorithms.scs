@@ -1,0 +1,18 @@
+section_subject_domain_of_ml_algorithms <- sc_node_struct;;
+
+section_subject_domain_of_ml_algorithms
+	=> nrel_main_idtf:
+		[Раздел. Предметная область алгоритмов машинного обучения]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of Machine Learning algorithms]
+			(* <- lang_en;; *);;
+
+
+
+section_subject_domain_of_ml_algorithms
+	<= nrel_section_decomposition:
+		section_subject_domain_of_supervised_learning;
+		section_subject_domain_of_unsupervised_learning;
+		section_subject_domain_of_reinforcement_learning;;
+
+section_subject_domain_of_ml_algorithms <- non_atomic_section;;

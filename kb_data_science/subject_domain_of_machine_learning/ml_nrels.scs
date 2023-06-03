@@ -1,0 +1,9 @@
+nrel_method <- sc_node_norole_relation;;
+
+nrel_method
+  => nrel_main_idtf: 
+    [method] 
+    (* <- lang_en;; *); 
+  => nrel_main_idtf:  
+    [метод* ]
+    (* <- lang_ru;; *);;

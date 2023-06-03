@@ -1,0 +1,32 @@
+
+//описание класса Data Science
+concept_data_science <-sc_node_class;;
+
+concept_data_science
+	=> nrel_main_idtf:
+		[Наука о данных]
+			(* <- lang_ru;; *);
+	=> nrel_main_idtf:
+		[Data Science]
+			(* <- lang_en;; *);
+
+        <-rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+				=>nrel_main_idtf: [Определение: Наука о данных](*<-lang_ru;;*);;
+				=>nrel_main_idtf: [Definition: Data Science](*<-lang_en;;*);;
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[междисциплинарная область, которая использует научные методы, процессы, алгоритмы и системы для извлечения знаний и инсайтов из структурированных и неструктурированных данных. Она объединяет элементы статистики, математики, информатики и предметной области для понимания и анализа сложных явлений, предсказаний и принятия решений. ]
+                    (*<-lang_ru;;*);;
+					->rrel_example:
+					[An interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data. It combines elements of statistics, mathematics, computer science, and domain knowledge to understand and analyze complex phenomena, make predictions, and drive decision-making.]
+                    (*<-lang_en;;*);;
+					
+				*);;
+		*);;
+
+    

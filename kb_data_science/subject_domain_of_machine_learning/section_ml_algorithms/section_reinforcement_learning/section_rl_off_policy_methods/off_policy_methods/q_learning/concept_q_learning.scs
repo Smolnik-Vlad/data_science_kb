@@ -1,0 +1,33 @@
+
+concept_q_learning
+
+	<- sc_node_not_relation;
+	
+	<- concept_rl_off_policy_method;
+	
+	=> nrel_main_idtf: 
+		[Q-Learning] 
+			(* <-lang_en;; *);
+        [Q-Learning]
+            (*<-lang_ru;;*);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Q-Learning] 
+					(* <-lang_ru;; *);
+				[Definition: Q-Learning] 
+					(* <-lang_en;; *);;
+
+				<-definition;;
+				<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Q-Learning - это алгоритм обучения с подкреплением, используемый для решения задачи обучения с подкреплением с использованием таблицы Q-значений. Он позволяет обучать агента, который может выбирать действия на основе текущего состояния окружающей среды, получать награды за свои действия и учиться на основе опыта.](*<-lang_ru;;*);
+					[Q-Learning is a reinforcement learning algorithm used to solve the reinforcement learning problem using a Q-value table. It allows you to train an agent that can choose actions based on the current state of the environment, receive rewards for its actions, and learn from experience.](*<-lang_en;;*);;
+				*);;	
+		*);;

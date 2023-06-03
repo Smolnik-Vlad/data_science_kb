@@ -1,0 +1,32 @@
+concept_dqn
+
+	<- sc_node_not_relation;
+	
+	<- concept_rl_off_policy_method;
+	
+	=> nrel_main_idtf: 
+		[DQN] 
+			(* <-lang_ru;; *);
+		[DQN] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Глубокая Q-сеть] 
+					(* <-lang_ru;; *);
+				[Definition: Deep Q-Learning] 
+					(* <-lang_en;; *);;
+
+				<-definition;;
+				<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Алгоритм обучения с подкреплением, который использует нейронные сети для аппроксимации функции Q-оценки (Q-function) в задаче управления агентом в среде.](*<-lang_ru;;*);
+					[A reinforcement learning algorithm that uses neural networks to approximate the Q-function in an agent control task in an environment.](*<-lang_en;;*);;
+				*);;	
+		*);;

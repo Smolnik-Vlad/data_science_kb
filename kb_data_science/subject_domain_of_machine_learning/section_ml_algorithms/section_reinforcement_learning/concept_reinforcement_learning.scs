@@ -1,0 +1,24 @@
+concept_ml_algorithms->concept_reinforcement_learning;;
+concept_reinforcement_learning <- sc_node_class;;
+
+concept_reinforcement_learning
+=> nrel_main_idtf: ["Обучение с подкреплением"]
+    (*<-lang_ru;;*);
+=> nrel_main_idtf: ["Reinforcement Learnings"]
+    (*<-lang_en;;*);
+
+    <-rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+            =>nrel_main_idtf: [Определение: Обучение с подкреплением](*<-lang_ru;;*);;
+            =>nrel_main_idtf: [Definition: Reinforcement Learnings](*<-lang_en;;*);;
+        <-definition;;
+        <=nrel_sc_text_translation: ...
+            (*
+                ->rrel_example:
+                [Обучение с подкреплением - это раздел машинного обучения, который занимается изучением того, как агент должен действовать в определенной среде, чтобы максимизировать получаемый награду.](*<-lang_ru;;*);
+                [Reinforcement learning is a branch of machine learning that studies how an agent must act in a particular environment in order to maximize the reward received.](*<-lang_en;;*);;
+                
+            *);;
+    *);;
