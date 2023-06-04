@@ -1,0 +1,38 @@
+policy_gradients
+
+	<- sc_node_not_relation;
+	
+	<- concept_rl_on_policy_method;
+	
+	=> nrel_main_idtf: 
+		[Policy Gradients] 
+			(* <-lang_ru;; *);
+		[Policy Gradients] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Градиенты политики] 
+					(* <-lang_ru;; *);
+				[Definition: Policy Gradients] 
+					(* <-lang_en;; *);;
+
+				<-definition;;
+				<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Класс алгоритмов обучения с подкреплением, которые напрямую оптимизируют параметры стратегии агента (policy) для достижения максимальной награды. В отличие от Value-based подходов, таких как Q-learning и SARSA, которые оценивают ценность состояний или действий, Policy Gradients работают напрямую с вероятностным распределением выбора действий в каждом состоянии.](*<-lang_ru;;*);
+					[A class of reinforcement learning algorithms that directly optimize agent (policy) strategy parameters to maximize reward. Unlike Value-based approaches such as Q-learning and SARSA, which estimate the value of states or actions, Policy Gradients work directly with the probability distribution of action choices in each state.](*<-lang_en;;*);;
+				*);;	
+		*);;
+
+
+policy_gradients
+	=>nrel_country_of_origin: Canada;
+	=>nrel_creator: Richard_Sutton;
+	=>nrel_foundation_year: [1998];;

@@ -1,0 +1,31 @@
+concept_text_generation
+	<- concept_nlp_task;
+
+	<- sc_node_not_relation;
+	
+	=> nrel_main_idtf: 
+		[Генерация текста] (* <-lang_ru;; *);
+		[ Text Generation] (* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Генерация текста] 
+					(* <-lang_ru;; *);
+				[Definition:  Text Generation]
+					(* <-lang_en;; *);;	
+
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Задача в области обработки естественного языка (NLP), которая заключается в создании текста на естественном языке, похожего на текст, написанный человеком. Для этого могут использоваться различные методы, такие как языковое моделирование, нейронные сети и другие методы машинного обучения. Целью является создание связного и осмысленного текста, который кажется написанным человеком, и может быть использован для различных приложений, таких как чат-боты, языковой перевод и создание контента.](*<-lang_ru;;*);
+					[A task in Natural Language Processing (NLP) that involves generating natural language text that resembles text written by humans. This can be done using various techniques, such as language modeling, neural networks, and other machine learning methods. The goal is to create coherent and meaningful text that appears to be written by a human, and can be used for a variety of applications, such as chatbots, language translation, and content creation.](*<-lang_en;;*);;
+					
+				*);;
+				
+		*);;

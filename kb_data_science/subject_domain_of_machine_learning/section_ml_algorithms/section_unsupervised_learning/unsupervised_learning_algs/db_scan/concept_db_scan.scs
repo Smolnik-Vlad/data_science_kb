@@ -1,0 +1,50 @@
+
+dbscan
+
+	<- sc_node_not_relation;
+	
+	<- concept_unsupervised_learning_algorithm;
+	
+	=> nrel_main_idtf: 
+		[DBSCAN] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[DBSCAN] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Пространственная кластеризация приложений с шумом на основе плотности] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Density-Based Spatial Clustering of Applications with Noise] 
+					(* <-lang_en;; *);;
+			
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[алгоритм кластеризации, основанный на плотности точек. Он позволяет автоматически обнаруживать кластеры произвольной формы и определять выбросы (outliers). ](*<-lang_ru;;*);
+					[clustering algorithm based on point density. It allows automatic detection of arbitrarily shaped clusters and detection of outliers.](*<-lang_en;;*);;
+					
+				*);;
+				
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_unsupervised_learning_algorithm;;
+				*);;
+
+			
+		*);;
+
+
+dbscan
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Johannes_MacQueen;
+	=>nrel_foundation_year: [ 1971 ];;

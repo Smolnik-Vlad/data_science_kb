@@ -1,0 +1,31 @@
+concept_text_classification
+	<- concept_nlp_task;
+
+	<- sc_node_not_relation;
+	
+	=> nrel_main_idtf: 
+		[Классификация текста] (* <-lang_ru;; *);
+		[Text Classification] (* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+    
+			=> nrel_main_idtf: 
+				[Определение: Классификация текста] 
+					(* <-lang_ru;; *);
+				[Definition: Text Classification]
+					(* <-lang_en;; *);;	
+
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Задача машинного обучения, которая заключается в определении категории или метки, которая лучше всего описывает заданный текстовый документ. Она может использоваться во многих приложениях, таких как фильтрация спама, анализ тональности отзывов, категоризация новостей, определение языка текста и т.д.](*<-lang_ru;;*);
+					[A machine learning task that involves determining the category or label that best describes a given text document. It can be used in many applications, such as spam filtering, review tone analysis, news categorization, text language detection, etc.](*<-lang_en;;*);;
+					
+				*);;
+				
+		*);;

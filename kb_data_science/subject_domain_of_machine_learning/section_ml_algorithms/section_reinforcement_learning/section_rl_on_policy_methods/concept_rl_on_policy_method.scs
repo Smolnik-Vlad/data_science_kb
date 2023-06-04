@@ -1,0 +1,32 @@
+concept_rl_on_policy_method<-sc_node_class;;
+concept_reinforcement_learning->concept_rl_on_policy_method;;
+
+concept_rl_on_policy_method
+	
+	=> nrel_main_idtf: 
+		[On-policy метод] (* <-lang_ru;; *);
+		["On-policy method"] (* <-lang_en;; *);
+
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: On-policy метод] 
+					(* <-lang_ru;; *);
+				[Definition: on-policy method]
+					(* <-lang_en;; *);;
+
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[On-policy методы являются подклассом алгоритмов обучения с подкреплением и основываются на обучении непосредственно на основе текущей политики. Эти методы пытаются максимизировать награду, следуя текущей стратегии, которая обновляется на каждой итерации обучения.](*<-lang_ru;;*);
+					[On-policy methods are a subclass of reinforcement learning algorithms and are based on learning directly from the current policy. These methods try to maximize reward by following the current policy, which is updated at each iteration of learning.](*<-lang_en;;*);;
+					
+				*);;
+						
+		*);;

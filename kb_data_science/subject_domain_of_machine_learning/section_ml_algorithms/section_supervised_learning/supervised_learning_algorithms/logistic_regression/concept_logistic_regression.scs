@@ -1,0 +1,47 @@
+
+logistic_regression
+
+	<- sc_node_not_relation;
+	
+	<- concept_supervised_learning_algorithm;
+	
+	=> nrel_main_idtf: 
+		[Метод логистической регрессии] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[Logistic Regression] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Метод логистической регрессии] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Logistic Regression] 
+					(* <-lang_en;; *);;
+					
+			<-definition;;
+
+			<= nrel_sc_text_translation: ...
+				(* 
+					-> rrel_example: [a statistical method for modeling the relationship between a set of independent variables and a binary target variable. It is used to predict the probability of occurrence of a particular event or classification into two classes: 0 and 1.](* <-lang_en;;*);
+									[ статистический метод для моделирования зависимости между набором независимых переменных и бинарной целевой переменной. Она используется для прогнозирования вероятности возникновения определенного события или классификации в два класса: 0 и 1.](*<-lang_ru;;*);;
+				*);;
+				
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_supervised_learning_algorithm;;
+				*);;
+		*);;
+
+
+logistic_regression
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Leonard_Handley;
+	=>nrel_foundation_year: [1970];;

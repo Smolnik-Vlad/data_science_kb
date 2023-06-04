@@ -1,0 +1,32 @@
+concept_translation
+	<- concept_nlp_task;
+
+	<- sc_node_not_relation;
+	
+	=> nrel_main_idtf: 
+		[Перевод] (* <-lang_ru;; *);
+		[Translation] (* <-lang_en;; *);
+
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Перевод] 
+					(* <-lang_ru;; *);
+				[Definition: Trnaslation]
+					(* <-lang_en;; *);;	
+
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Задача автоматического перевода текстов с одного языка на другой с помощью компьютерных алгоритмов и моделей машинного обучения. Цель этой задачи - создание систем, способных переводить тексты с высокой точностью и сохранением смысла. ](*<-lang_ru;;*);
+					[The task of automatic translation of texts from one language to another using computer algorithms and machine learning models. The goal of this task is to create systems capable of translating texts with high accuracy and preservation of meaning.](*<-lang_en;;*);;
+					
+				*);;
+				
+		*);;

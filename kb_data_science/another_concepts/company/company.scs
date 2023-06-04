@@ -1,0 +1,27 @@
+concept_company <- sc_node_class;;
+
+
+concept_company
+  => nrel_main_idtf: 
+    [Company] 
+    (* <- lang_en;; *); 
+  => nrel_main_idtf:  
+    [Компания]
+    (* <- lang_ru;; *);;
+
+concept_country
+    <- rrel_key_sc_element: 
+        ...
+        (*
+            <- sc_definition;;
+                => nrel_main_idtf: [Определение: страна-создатель] (* <- lang_ru;; *);;
+                => nrel_main_idtf: [Definiton: country-origin] (* <- lang_en;; *);;
+            <- definiton;;
+                <= nrel_sc_text_translation: ...
+                (*
+                    -> rrel_example:
+                        [ организация, занимающаяся производством товаров или предоставлением услуг. Она осуществляет процессы производства, сборки, упаковки и распределения продукции или оказания услуг в соответствии с определенными стандартами качества.];;
+                    -> rrel_example:
+                        [An organization engaged in the production of goods or the provision of services. It carries out the processes of production, assembly, packaging and distribution of products or services in accordance with certain quality standards.];;
+                *);;
+        *);;

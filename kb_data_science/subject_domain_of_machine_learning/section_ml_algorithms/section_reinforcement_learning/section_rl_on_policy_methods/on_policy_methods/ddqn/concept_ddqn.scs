@@ -1,0 +1,37 @@
+ddqn
+
+	<- sc_node_not_relation;
+	
+	<- concept_rl_on_policy_method;
+	
+	=> nrel_main_idtf: 
+		[DDQN] 
+			(* <-lang_ru;; *);
+		[DDQN] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Двойная глубокая Q-сеть] 
+					(* <-lang_ru;; *);
+				[Definition: Double Deep Q-Network] 
+					(* <-lang_en;; *);;
+
+				<-definition;;
+				<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Это модификация алгоритма Deep Q-Network (DQN) для обучения с подкреплением, предложенная в 2015 году. DDQN является Value-based алгоритмом, который основан на идеях Q-learning и нейронных сетей.](*<-lang_ru;;*);
+					[A modification of the Deep Q-Network (DQN) algorithm for reinforcement learning proposed in 2015. DDQN is a Value-based algorithm that is based on the ideas of Q-learning and neural networks.](*<-lang_en;;*);;
+				*);;	
+		*);;
+
+ddqn
+	=>nrel_country_of_origin: UK;
+	=>nrel_creator: Volodymyr_Mnih;
+	=>nrel_foundation_year: [2015];;

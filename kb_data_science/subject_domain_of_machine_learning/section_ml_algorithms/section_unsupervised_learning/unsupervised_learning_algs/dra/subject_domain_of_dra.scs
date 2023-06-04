@@ -1,0 +1,24 @@
+subject_domain_of_dra <- subject_domain;;
+subject_domain_of_dra <- sc_node_struct;;
+
+subject_domain_of_dra <= nrel_private_subject_domain:
+			concept_unsupervised_learning_algorithm;;
+
+subject_domain_of_dra
+	=> nrel_main_idtf:
+		[Предметная область алгоритмов снижения размерности]
+			(* <- lang_ru;; *);
+		[Subject domain of dimensionality reduction algorithms]
+			(* <- lang_en;; *);;
+
+
+subject_domain_of_dra -> rrel_maximum_studied_object_class:
+concept_machine_learning;;
+
+section_subject_domain_of_dra
+    ->rrel_key_sc_element:
+        subject_domain_of_dra;;
+
+subject_domain_of_dra
+    ->rrel_key_sc_element:
+        concept_dra;; 

@@ -1,0 +1,46 @@
+isomap
+
+	<- sc_node_not_relation;
+	
+	<- concept_ar;
+	
+	=> nrel_main_idtf: 
+		[Isomap] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[Isomap] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: (изометрическое отображение)] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Isomap (Isometric Mapping)] 
+					(* <-lang_en;; *);;
+			
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Алгоритм снижения размерности, который использует геометрическую структуру данных, чтобы сохранить глобальное расстояние между точками при снижении размерности.](*<-lang_ru;;*);
+					[A dimensionality reduction algorithm that uses a geometric data structure to preserve the global distance between points while reducing the dimensionality.](*<-lang_en;;*);;
+					
+				*);;
+				
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_ar;;
+				*);;
+		*);;
+
+isomap
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Karol_Pirsen;
+	=>nrel_foundation_year: [ 2000 ];;

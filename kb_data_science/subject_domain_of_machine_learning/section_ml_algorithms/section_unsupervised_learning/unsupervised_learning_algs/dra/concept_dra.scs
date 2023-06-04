@@ -1,0 +1,37 @@
+concept_dra<-sc_node_class;;
+concept_unsupervised_learning -> concept_dra;;
+
+concept_dra
+	<- sc_node_not_relation;
+	
+	=> nrel_main_idtf: 
+		[Алгоритмы снижения размерности] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[Dimensionality reduction algorithms] 
+			(* <-lang_en;; *);
+
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Алгоритмы снижения размерности] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Dimensionality reduction algorithms]
+					(* <-lang_en;; *);;
+			
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Алгоритмы снижения размерности используются для уменьшения количества входных признаков в наборе данных при сохранении наиболее важной информации. Это делается для упрощения модели, уменьшения шума и ускорения процесса обучения.](*<-lang_ru;;*);
+					[Dimensionality reduction algorithms are used to reduce the number of input features in a dataset while retaining the most important information. This is done to simplify the model, reduce noise, and speed up the training process.](*<-lang_en;;*);;
+				*);;
+			
+			
+		*);;

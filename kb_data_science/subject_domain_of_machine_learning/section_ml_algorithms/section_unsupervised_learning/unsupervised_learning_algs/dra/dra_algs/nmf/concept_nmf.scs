@@ -1,0 +1,46 @@
+nmf
+
+	<- sc_node_not_relation;
+	
+	<- concept_ar;
+	
+	=> nrel_main_idtf: 
+		[NMF] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[NMF] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Неотрицательная матричная факторизация (НМФ)] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Non-negative Matrix Factorization (NMF)] 
+					(* <-lang_en;; *);;
+			
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[метод линейной алгебры, который позволяет разложить матрицу на две матрицы меньшего размера. Одна матрица содержит неотрицательные веса признаков, а другая - неотрицательные веса объектов. ](*<-lang_ru;;*);
+					[Linear algebra method, which allows to decompose a matrix into two matrices of smaller size. One matrix contains non-negative feature weights, and the other contains non-negative feature weights.](*<-lang_en;;*);;
+					
+				*);;
+				
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_ar;;
+				*);;
+		*);;
+
+nmf
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Geoffrey_Hinton;
+	=>nrel_foundation_year: [ 1925 ];;

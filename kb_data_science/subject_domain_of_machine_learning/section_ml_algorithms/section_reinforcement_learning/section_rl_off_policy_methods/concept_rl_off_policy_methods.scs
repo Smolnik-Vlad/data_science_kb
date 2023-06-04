@@ -3,8 +3,8 @@ concept_reinforcement_learning->concept_rl_off_policy_method;;
 concept_rl_off_policy_method
 	
 	=> nrel_main_idtf: 
-		["Off-policy метод"] (* <-lang_ru;; *);
-		["Off-policy method"] (* <-lang_en;; *);;
+		[Off-policy метод] (* <-lang_ru;; *);
+		[Off-policy method] (* <-lang_en;; *);;
 
 concept_rl_off_policy_method
 	<- rrel_key_sc_element:

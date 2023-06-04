@@ -1,0 +1,33 @@
+concept_unsupervised_learning_algorithm <- sc_node_class;;
+concept_ml_algorithms->concept_unsupervised_learning_algorithm;;
+
+
+concept_unsupervised_learning_algorithm
+	<- sc_node_not_relation;
+	
+	=> nrel_main_idtf: 
+		[Алгоритм обучения без учителя] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[Unsupervised Learning algorithm] 
+			(* <-lang_en;; *);
+
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf: 
+				[Определение: Алгоритм обучения без учителя] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: nsupervised Learning algorithm]
+					(* <-lang_en;; *);;
+			
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Алгоритмы обучения без учителя используются для поиска закономерностей в данных, когда нет явных меток классов или целевых переменных. Они используются для кластеризации, сокращения размерности, обнаружения выбросов и ассоциативного анализа.](*<-lang_ru;;*);
+					[Unsupervised Learning algorithms are used to find patterns in data when there are no explicit class labels or target variables. They are used for clustering, dimensionality reduction, outlier detection, and associative analysis.](*<-lang_en;;*);;
+				*);;
+		*);;

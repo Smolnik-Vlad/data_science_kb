@@ -1,0 +1,49 @@
+t_sne
+
+	<- sc_node_not_relation;
+	
+	<- concept_unsupervised_learning_algorithm;
+	
+	=> nrel_main_idtf: 
+		[t-SNE] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[t-SNE] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: t-распределенное стохастическое встраивание соседей] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: t-Distributed Stochastic Neighbor Embedding] 
+					(* <-lang_en;; *);;
+			
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Алгоритм визуализации данных, который используется в обучении без учителя для снижения размерности данных с сохранением информации о их геометрической структуре. Он может использоваться для визуализации высокоразмерных данных в двух- или трехмерном пространстве, что упрощает их анализ и интерпретацию. ](*<-lang_ru;;*);
+					[A data visualization algorithm that is used in teacherless learning to reduce the dimensionality of data while preserving information about its geometric structure. It can be used to visualize high-dimensional data in two- or three-dimensional space, which simplifies their analysis and interpretation.](*<-lang_en;;*);;
+					
+				*);;
+				
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_unsupervised_learning_algorithm;;
+				*);;
+
+			
+		*);;
+
+t_sne
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Geoffrey_Hinton;
+	=>nrel_foundation_year: [ 1901 ];;
+

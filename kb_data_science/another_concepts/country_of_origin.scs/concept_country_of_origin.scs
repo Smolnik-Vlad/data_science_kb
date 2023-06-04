@@ -1,0 +1,27 @@
+concept_country <- sc_node_class;;
+
+
+concept_country
+  => nrel_main_idtf: 
+    [country-origin] 
+    (* <- lang_en;; *); 
+  => nrel_main_idtf:  
+    [страна-создатель]
+    (* <- lang_ru;; *);;
+
+concept_country
+    <- rrel_key_sc_element: 
+        ...
+        (*
+            <- sc_definition;;
+                => nrel_main_idtf: [Определение: страна-создатель] (* <- lang_ru;; *);;
+                => nrel_main_idtf: [Definiton: country-origin] (* <- lang_en;; *);;
+            <- definiton;;
+                <= nrel_sc_text_translation: ...
+                (*
+                    -> rrel_example:
+                        [  Страна, которая является источником или инициатором чего-либо значимого или важного, часто связанного с изобретениями, открытиями, творчеством или другими сферами деятельности. Это может быть страна, где возникли первоначальные идеи, концепции или разработки, или страна, которая сильно влияет на определенную область и считается ее родиной или основным источником.];;
+                    -> rrel_example:
+                        [A country that is the source or initiator of something significant or important, often related to inventions, discoveries, creativity, or other fields of endeavor. It may be the country where the original ideas, concepts or developments originated, or a country that strongly influences a particular field and is considered its home or primary source.];;
+                *);;
+        *);;

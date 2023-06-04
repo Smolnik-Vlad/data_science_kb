@@ -1,0 +1,10 @@
+concept_machine_learning -> concept_ml_application_fields;;
+concept_ml_application_fields
+
+	=> nrel_main_idtf:
+		[Области применения машинного обучения]
+			(* <- lang_ru;; *);
+	=> nrel_main_idtf:
+		[Applications of machine learning]
+			(* <- lang_en;; *);;
+

@@ -1,0 +1,11 @@
+Anaconda  <- concept_company;;
+
+Anaconda 
+    => nrel_main_idtf:
+    [Anaconda ] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Анаконда]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: USA;;

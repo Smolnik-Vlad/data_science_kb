@@ -1,0 +1,9 @@
+section_nlp_task<-subject_domain;;
+section_nlp_task<-sc_node_struct;;
+section_nlp_task
+	=> nrel_main_idtf:
+		[Раздел. Задачи NLP ]
+			(* <- lang_ru;; *);
+	=> nrel_main_idtf:
+		[Section. The tasks of NLP]
+			(* <- lang_en;; *);;

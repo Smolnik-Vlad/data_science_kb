@@ -1,0 +1,29 @@
+sklearn
+    => nrel_main_idtf: [Sklearn](*<-lang_en;;*);;
+
+
+
+
+sklearn	
+    <-concept_tools_for_solving_ml_problems;
+    <-rrel_key_sc_element:
+...
+(*
+    <- sc_definition;;
+        =>nrel_main_idtf: [Определение:  Scikit-learn (sklearn)](*<-lang_ru;;*);;
+        =>nrel_main_idtf: [Definition: Scikit-learn (sklearn)](*<-lang_en;;*);;
+    <-definition;;
+    <=nrel_sc_text_translation: ...
+        (*
+            ->rrel_example:
+            [Библиотека для языка программирования Python, которая предоставляет множество инструментов для решения задач машинного обучения, включая классификацию, регрессию, кластеризацию, обработку текстовых данных, анализ изображений и многие другие.](*<-lang_ru;;*);;
+            ->rrel_example:
+            [Library for the Python programming language that provides many tools for machine learning tasks, including classification, regression, clustering, text processing, image analysis, and many others.](*<-lang_en;;*);;
+            
+        *);;
+*);;
+
+sklearn
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Leon_Botu;
+	=>nrel_foundation_year: [2007];;

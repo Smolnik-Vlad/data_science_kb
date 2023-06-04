@@ -1,0 +1,46 @@
+lda
+
+	<- sc_node_not_relation;
+	
+	<- concept_ar;
+	
+	=> nrel_main_idtf: 
+		[LDA] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[LDA] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Линейный дискриминантный анализ (LDA)] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Linear Discriminant Analysis (LDA)] 
+					(* <-lang_en;; *);;
+			
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Алгоритм машинного обучения, используемый в задачах классификации и снижения размерности признаков. Он находит линейные комбинации исходных признаков, которые максимально разделяют классы в данных, и использует их для прогнозирования меток классов на новых данных.](*<-lang_ru;;*);
+					[A machine learning algorithm used in classification and feature dimensionality reduction tasks. It finds linear combinations of initial features that maximize class separation in the data, and uses them to predict class labels on new data.](*<-lang_en;;*);;
+					
+				*);;
+				
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_ar;;
+				*);;
+		*);;
+
+lda
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Geoffrey_Hinton;
+	=>nrel_foundation_year: [ 1988 ];;

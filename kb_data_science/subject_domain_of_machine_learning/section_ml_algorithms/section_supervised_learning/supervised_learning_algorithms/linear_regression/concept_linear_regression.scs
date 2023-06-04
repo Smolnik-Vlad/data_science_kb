@@ -1,0 +1,47 @@
+linear_regression
+
+	<- sc_node_not_relation;
+	
+	<- concept_supervised_learning_algorithm;
+	
+	=> nrel_main_idtf: 
+		["Линейная регрессия"] 
+			(* <-lang_ru;; *);
+			
+	=> nrel_main_idtf: 
+		["Linear regression"] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Линейная регрессия] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Linear regression] 
+					(* <-lang_en;; *);;
+					
+			<-definition;;
+
+			<= nrel_sc_text_translation: ...
+				(* 
+					-> rrel_example: [an algorithm that provides a linear relationship between an independent variable and a dependent variable to predict the outcome of future events. It is a statistical method used in data science and machine learning for predictive analysis.](* <-lang_en;;*);
+									[алгоритм, который обеспечивает линейную связь между независимой переменной и зависимой переменной для прогнозирования исхода будущих событий. Это статистический метод, используемый в науке о данных и машинном обучении для прогностического анализа.](*<-lang_ru;;*);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_supervised_learning_algorithm;;
+				*);;
+
+			
+		*);;
+
+linear_regression
+	=>nrel_country_of_origin: USA; UK;
+	=>nrel_creator: Karol_Pirsen; Ronald_Fisher;
+	=>nrel_foundation_year: [19xx];;

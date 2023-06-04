@@ -1,0 +1,5 @@
+section_subject_domain_of_rl_on_policy_methods<-sc_node_struct;;
+section_subject_domain_of_rl_on_policy_methods
+	=> nrel_main_idtf:
+		[Раздел. On-policy методы RL](* <- lang_ru;; *);
+		[Section. On-policy RL methods](* <- lang_en;; *);;

@@ -1,7 +1,7 @@
 //Описание подразделов of_rl_policy_method
 
 section_subject_domain_of_rl_off_policy_methods <- sc_node_struct;;
-secrion_subject_domain_of_rl_off_policy_methods
+section_subject_domain_of_rl_off_policy_methods
 	=> nrel_main_idtf:
 		[Раздел. Off-policy методы RL](* <- lang_ru;; *);
 		[Section. Off-policy RL methods](* <- lang_en;; *);;

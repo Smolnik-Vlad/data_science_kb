@@ -1,5 +1,6 @@
 //Описание класса concept_ml_algorithms	
 concept_ml_algorithms <- sc_node_class;;
+concept_machine_learning->concept_ml_algorithms;;
 concept_ml_algorithms
 	=> nrel_main_idtf:
 		[Алгоритмы машинного обучения]
@@ -25,7 +26,3 @@ concept_ml_algorithms
                 
             *);;
     *);;
-
-concept_ml_algorithms
-    <= nrel_method: 
-        concept_machine_learning;;

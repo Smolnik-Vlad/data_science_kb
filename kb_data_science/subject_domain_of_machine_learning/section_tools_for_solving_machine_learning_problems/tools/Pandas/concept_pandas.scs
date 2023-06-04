@@ -1,0 +1,27 @@
+Pandas
+    => nrel_main_idtf: [Pandas](*<-lang_en;;*);;
+
+
+Pandas
+    <-concept_tools_for_solving_ml_problems;
+    <-rrel_key_sc_element:
+...
+(*
+    <- sc_definition;;
+        =>nrel_main_idtf: [Определение: Pandas](*<-lang_ru;;*);;
+        =>nrel_main_idtf: [Definition: Pandas](*<-lang_en;;*);;
+    <-definition;;
+    <=nrel_sc_text_translation: ...
+        (*
+            ->rrel_example:
+            [Библиотека для языка программирования Python, которая предоставляет удобные структуры данных для анализа и манипулирования табличными данными. Она обеспечивает функциональность, аналогичную SQL, для объединения, группировки, фильтрации, агрегации и трансформации данных, а также обеспечивает широкие возможности по работе с пропущенными значениями. ](*<-lang_ru;;*);;
+            ->rrel_example:
+            [A library for the Python programming language that provides convenient data structures for analyzing and manipulating tabular data. It provides SQL-like functionality for combining, grouping, filtering, aggregating, and transforming data, as well as extensive skip-value handling capabilities.](*<-lang_en;;*);;
+            
+        *);;
+*);;
+
+Pandas
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Wes_McKinney;
+	=>nrel_foundation_year: [2008];;

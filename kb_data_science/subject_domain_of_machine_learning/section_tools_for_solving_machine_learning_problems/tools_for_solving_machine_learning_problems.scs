@@ -1,14 +1,22 @@
-section_tools_for_solving_ml_problems
+concept_tools_for_solving_ml_problems <- sc_node_class;;
+concept_machine_learning->concept_tools_for_solving_ml_problems;;
 
-	=> nrel_main_idtf:
-		[Раздел. Инструменты решения задач машинного обучения]
-			(* <- lang_ru;; *);
-		[Section. Tools for solving machine learning problems]
-			(* <- lang_en;; *);;
-
-section_tools_for_solving_ml_problems	
-	-> rrel_key_sc_element:
-        concept_tools_for_solving_ml_problems;;
-
-section_tools_for_solving_ml_problems <- atomic_section;;
-
+concept_tools_for_solving_ml_problems
+    => nrel_main_idtf: [Инструменты решения задач машинного обучения](*<-lang_ru;;*);
+    => nrel_main_idtf: [Tools for solving machine learning problems](*<-lang_en;;*);
+    <-rrel_key_sc_element:
+	...
+	(*
+		<- sc_definition;;
+			=>nrel_main_idtf: [Определение: инструменты решения задач машинного обучения](*<-lang_ru;;*);;
+			=>nrel_main_idtf: [Definition: Tools for solving machine learning problems](*<-lang_en;;*);;
+		<-definition;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example:
+				[программные или аппаратные средства, которые используются для решения задач, связанных с обработкой и анализом данных, обучением моделей машинного обучения, их оценкой и применением в различных областях, таких как компьютерное зрение, обработка естественного языка, рекомендательные системы и другие. Эти инструменты могут включать в себя библиотеки программного обеспечения, фреймворки, облачные платформы, графические процессоры (GPU) и другие ресурсы, которые помогают разработчикам и исследователям машинного обучения улучшить производительность и точность моделей.](*<-lang_ru;;*);;
+				->rrel_example:
+				[Software or hardware tools that are used to solve problems related to data processing and analysis, machine learning model training, evaluation, and applications in various fields, such as computer vision, natural language processing, recommendation systems, and others. These tools can include software libraries, frameworks, cloud platforms, graphics processing units (GPUs), and other resources that help developers and machine learning researchers improve model performance and accuracy.](*<-lang_en;;*);;
+				
+			*);;
+	*);;

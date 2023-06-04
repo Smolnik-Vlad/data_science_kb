@@ -1,0 +1,37 @@
+ac
+
+	<- sc_node_not_relation;
+	
+	<- concept_rl_on_policy_method;
+	
+	=> nrel_main_idtf: 
+		[Actor Critic] 
+			(* <-lang_ru;; *);
+		[Actor Critic] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Actor Critic] 
+					(* <-lang_ru;; *);
+				[Definition: Актерский критик] 
+					(* <-lang_en;; *);;
+
+				<-definition;;
+				<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Это семейство алгоритмов обучения с подкреплением, которые сочетают в себе преимущества двух других классов алгоритмов - Policy-based и Value-based. В AC-алгоритмах имеется две нейронные сети: Actor и Critic. Actor отвечает за выбор оптимального действия в каждом состоянии, она обучается на основе градиентного спуска и функции оценки качества действия (обычно это функция Q-значений). Critic оценивает ценность состояний и используется для обновления функции оценки Actor. Критик обучается на основе методов Value-based обучения, например, Q-Learning или SARSA.](*<-lang_ru;;*);
+					[A family of reinforcement learning algorithms that combine the advantages of two other classes of algorithms, Policy-based and Value-based. AC algorithms have two neural networks: Actor and Critic. Actor is responsible for selecting the optimal action in each state, it is trained on the basis of the gradient descent and the action quality function (usually a Q-value function). Critic evaluates the value of the states and is used to update Actor's evaluation function. Critic is trained based on Value-based learning techniques such as Q-Learning or SARSA.](*<-lang_en;;*);;
+				*);;	
+		*);;
+
+ac
+	=>nrel_country_of_origin: Canada;
+	=>nrel_creator: Richard_Sutton;
+	=>nrel_foundation_year: [1983];;

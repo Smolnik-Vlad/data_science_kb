@@ -1,4 +1,4 @@
-concept_dqn
+dqn
 
 	<- sc_node_not_relation;
 	
@@ -30,3 +30,8 @@ concept_dqn
 					[A reinforcement learning algorithm that uses neural networks to approximate the Q-function in an agent control task in an environment.](*<-lang_en;;*);;
 				*);;	
 		*);;
+
+dqn
+	=>nrel_country_of_origin: UK;
+	=>nrel_creator: Volodymyr_Mnih;
+	=>nrel_foundation_year: [2013];;

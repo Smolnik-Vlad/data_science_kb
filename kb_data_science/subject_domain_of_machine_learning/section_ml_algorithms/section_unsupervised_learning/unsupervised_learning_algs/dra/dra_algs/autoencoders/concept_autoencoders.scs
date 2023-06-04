@@ -1,0 +1,47 @@
+
+autoencoders
+
+	<- sc_node_not_relation;
+	
+	<- concept_ar;
+	
+	=> nrel_main_idtf: 
+		[Autoencoders] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[Автоэнкдеры] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Автоэнкодеры (подход на основе нейронных сетей)] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Autoencoders (Neural Network-based approach)] 
+					(* <-lang_en;; *);;
+			
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Метод обучения без учителя, используемый для снижения размерности входных данных и извлечения наиболее значимых признаков. Автоэнкодеры состоят из двух основных компонентов: кодировщика и декодировщика. Кодировщик преобразует входные данные в более компактное представление, называемое латентным представлением, которое содержит наиболее значимые признаки входных данных. Декодировщик восстанавливает исходные данные из латентного представления.](*<-lang_ru;;*);
+					[A teacherless learning method used to reduce the dimensionality of the input data and extract the most significant features. Autoencoders consist of two main components: an encoder and a decoder. The encoder converts the input data into a more compact representation, called the latent representation, which contains the most significant features of the input data. The decoder reconstructs the input data from the latent representation.](*<-lang_en;;*);;
+					
+				*);;
+				
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_ar;;
+				*);;
+		*);;
+
+autoencoders
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Leonard_Handley;
+	=>nrel_foundation_year: [ 1916 ];;

@@ -1,0 +1,11 @@
+section_ml_application_fields
+	=> nrel_main_idtf:
+		[Раздел. Области применения машинного обучения]
+			(* <- lang_ru;; *);
+	=> nrel_main_idtf:
+		[Section. Applications of machine learning]
+			(* <- lang_en;; *);
+
+    <= nrel_section_decomposition:
+        section_computer_vision;
+        section_nlp;;

@@ -1,0 +1,45 @@
+support_vector_machines
+
+	<- sc_node_not_relation;
+	
+	<- concept_supervised_learning_algorithm;
+	
+	=> nrel_main_idtf: 
+		[Метод опорных векторов] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[Support Vector Machines] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Метод опорных векторов] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Support Vector Machines] 
+					(* <-lang_en;; *);;
+					
+			<= nrel_sc_text_translation: ...
+				(* 
+					-> rrel_example: [In Machine Learning, Support vector machines are supervised learning algorithms whose objective is to find a hyperplane in an N-dimensional space(N — the number of features) that distinctly classifies the data points.](* <-lang_en;;*);
+									[В машинном обучении машины опорных векторов являются алгоритмами контролируемого обучения, целью которых является нахождение гиперплоскости в N-мерном пространстве (N - количество признаков), которая однозначно классифицирует точки данных.](*<-lang_ru;;*);;
+				*);;
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_supervised_learning_algorithm;;
+				*);;
+
+			
+		*);;
+		
+
+support_vector_machines
+	=>nrel_country_of_origin: Russia;
+	=>nrel_creator: Vladimir_Vapkin;
+	=>nrel_foundation_year: [1992 ];;

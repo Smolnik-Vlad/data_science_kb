@@ -1,0 +1,8 @@
+section_subject_domain_of_dra
+
+	=> nrel_main_idtf:
+		[Раздел. Предметная область алгоритмов снижения размерности]
+			(* <- lang_ru;; *);
+			
+		[Section. Subject domain of dimensionality reduction algorithms]
+			(* <- lang_en;; *);;

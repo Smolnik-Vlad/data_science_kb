@@ -1,0 +1,29 @@
+subject_domain_of_nlp_task <- subject_domain;;
+subject_domain_of_nlp_task <- sc_node_struct;;
+
+subject_domain_of_nlp_task <= nrel_private_subject_domain:
+    subject_domain_of_ml_application_fields;;
+
+subject_domain_of_nlp_task
+	=> nrel_main_idtf:
+		[Предметная область обучения с учителем]
+			(* <- lang_ru;; *);
+		[Subject domain of supervised learning]
+			(* <- lang_en;; *);;
+
+
+subject_domain_of_nlp_task -> rrel_maximum_studied_object_class:
+concept_machine_learning;;
+
+subject_domain_of_nlp_task -> rrel_not_maximum_studied_object_class:
+concept_nlp;
+concept_ml_algorithms;;
+
+
+section_subject_domain_of_nlp_task
+    ->rrel_key_sc_element:
+        subject_domain_of_nlp_task;;
+
+subject_domain_of_nlp_task
+    ->rrel_key_sc_element:
+        concept_nlp_task;;  

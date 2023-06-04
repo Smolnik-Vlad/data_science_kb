@@ -1,0 +1,37 @@
+a3c
+
+	<- sc_node_not_relation;
+	
+	<- concept_rl_on_policy_method;
+	
+	=> nrel_main_idtf: 
+		[A3C] 
+			(* <-lang_ru;; *);
+		[A3C] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Асинхронное преимущество Актор-Критик] 
+					(* <-lang_ru;; *);
+				[Definition: Asynchronous Advantage Actor-Critic] 
+					(* <-lang_en;; *);;
+
+				<-definition;;
+				<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Это алгоритм обучения с подкреплением, который использует современный подход к распределенному обучению нейронных сетей. Он является усовершенствованной версией алгоритма Asynchronous Policy Gradient (APG), который разработан для быстрого обучения нейронных сетей на многоядерных процессорах.](*<-lang_ru;;*);
+					[A reinforcement learning algorithm that uses a modern approach to distributed learning of neural networks. It is an improved version of the Asynchronous Policy Gradient (APG) algorithm, which is designed for fast training of neural networks on multicore processors.](*<-lang_en;;*);;
+				*);;	
+		*);;
+
+a3c
+	=>nrel_country_of_origin: UK;
+	=>nrel_creator: Volodymyr_Mnih;
+	=>nrel_foundation_year: [2016];;

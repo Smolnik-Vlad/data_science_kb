@@ -1,0 +1,23 @@
+concept_Forecast
+    => nrel_main_idtf: [Forecast](*<-lang_en;;*);
+    => nrel_main_idtf: [Forecast](*<-lang_ru;;*);;
+
+
+concept_Forecast	
+    <-concept_tools_for_solving_ml_problems;
+    <-rrel_key_sc_element:
+...
+(*
+    <- sc_definition;;
+        =>nrel_main_idtf: [Определение: Forecast](*<-lang_ru;;*);;
+        =>nrel_main_idtf: [Definition: Forecast](*<-lang_en;;*);;
+    <-definition;;
+    <=nrel_sc_text_translation: ...
+        (*
+            ->rrel_example:
+            [инструмент для анализа и прогнозирования временных рядов, который позволяет исследовать и анализировать данные, чтобы определить тренды и сезонность, а также предсказать будущие значения.](*<-lang_ru;;*);;
+            ->rrel_example:
+            [A time series analysis and forecasting tool that allows you to examine and analyze data to determine trends and seasonality, and to predict future values.](*<-lang_en;;*);;
+            
+        *);;
+*);;

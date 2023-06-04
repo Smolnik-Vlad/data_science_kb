@@ -1,5 +1,5 @@
 
-concept_q_learning
+q_learning
 
 	<- sc_node_not_relation;
 	
@@ -31,3 +31,8 @@ concept_q_learning
 					[Q-Learning is a reinforcement learning algorithm used to solve the reinforcement learning problem using a Q-value table. It allows you to train an agent that can choose actions based on the current state of the environment, receive rewards for its actions, and learn from experience.](*<-lang_en;;*);;
 				*);;	
 		*);;
+
+q_learning
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Gerhard_Tschentscher;
+	=>nrel_foundation_year: [1989];;

@@ -1,0 +1,48 @@
+ar
+
+	<- sc_node_not_relation;
+	
+	<- concept_unsupervised_learning_algorithm;
+	
+	=> nrel_main_idtf: 
+		[Ассоциативные правила] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[Association Rules] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf:
+				[Определение: Ассоциативные правила] 
+					(* <-lang_ru;; *);
+				[Definition: Association Rules] 
+					(* <-lang_en;; *);;
+			
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[метод анализа данных в области data mining, который позволяет выявлять связи между атрибутами в больших наборах данных. Ассоциативные правила используются для определения скрытых шаблонов и зависимостей между различными элементами данных.](*<-lang_ru;;*);
+					[A data mining data analysis technique that identifies relationships between attributes in large datasets. Associative rules are used to identify hidden patterns and dependencies between different data elements.](*<-lang_en;;*);;
+					
+				*);;
+				
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_unsupervised_learning_algorithm;;
+				*);;
+
+			
+		*);;
+
+
+ar
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Geoffrey_Hinton;
+	=>nrel_foundation_year: [ 1981 ];;

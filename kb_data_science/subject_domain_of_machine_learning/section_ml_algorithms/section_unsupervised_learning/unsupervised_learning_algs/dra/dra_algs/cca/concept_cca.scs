@@ -1,0 +1,46 @@
+cca
+
+	<- sc_node_not_relation;
+	
+	<- concept_ar;
+	
+	=> nrel_main_idtf: 
+		[CCA] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[CCA] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Канонический корреляционный анализ (ККА)] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Canonical Correlation Analysis (CCA)] 
+					(* <-lang_en;; *);;
+			
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Cтатистический метод, используемый для выявления линейной связи между двумя наборами переменных. Он находит линейные комбинации каждого набора переменных, которые максимально коррелируют друг с другом. CCA часто используется в многомерном анализе данных, машинном обучении и обработке сигналов для поиска взаимосвязи между двумя наборами переменных.](*<-lang_ru;;*);
+					[Statistical method used to identify the linear relationship between two sets of variables. It finds the linear combinations of each set of variables that are maximally correlated with each other. CCA is often used in multivariate data analysis, machine learning, and signal processing to find the relationship between two sets of variables.).](*<-lang_en;;*);;
+					
+				*);;
+				
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_ar;;
+				*);;
+		*);;
+
+cca
+	=>nrel_country_of_origin: UK;
+	=>nrel_creator: Leo_Brayman;
+	=>nrel_foundation_year: [ 1954 ];;

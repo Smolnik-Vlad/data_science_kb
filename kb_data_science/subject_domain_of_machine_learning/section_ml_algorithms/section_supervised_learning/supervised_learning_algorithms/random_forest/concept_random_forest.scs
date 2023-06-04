@@ -1,0 +1,44 @@
+random_forest
+
+	<- sc_node_not_relation;
+	
+	<- concept_supervised_learning_algorithm;
+	
+	=> nrel_main_idtf: 
+		[Случайный лес] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[Random Forest] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Случайный лес] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Random Forest] 
+					(* <-lang_en;; *);;
+					
+			<= nrel_sc_text_translation: ...
+				(* 
+					-> rrel_example: [An ensemble machine learning model that combines multiple decision trees for classification or regression. It uses bootstrap aggregating to create a set of random subsamples from the original data and builds a tree on each subsample.](* <-lang_en;;*);
+									[Ансамблевая модель машинного обучения, объединяющая несколько деревьев решений для классификации или регрессии. Она использует бутстреп-агрегацию для создания набора случайных подвыборок из исходных данных и строит дерево на каждой подвыборке.](*<-lang_ru;;*);;
+				*);;
+
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_supervised_learning_algorithm;;
+				*);;
+		*);;
+		
+
+random_forest
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Leo_Brayman;
+	=>nrel_foundation_year: [2001 ];;

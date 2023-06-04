@@ -1,0 +1,35 @@
+concept_masked_language_modeling
+	<- concept_nlp_task;
+
+
+	<- sc_node_not_relation;
+	
+	=> nrel_main_idtf: 
+		[Маскированное моделирование языка] (* <-lang_ru;; *);
+		[Masked Language Modeling] (* <-lang_en;; *);
+
+
+
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Маскированное моделирование языка] 
+					(* <-lang_ru;; *);
+				[Definition: Masked Language Modeling]
+					(* <-lang_en;; *);;	
+
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Задача в NLP, которая заключается в обучении модели для заполнения пропущенных слов в предложении. В этой задаче модель получает на вход предложение, в котором случайным образом выбраны некоторые слова и заменены специальным символом-маской. Затем модель должна предсказать пропущенные слова.](*<-lang_ru;;*);
+					[A task in NLP that involves training a model to fill in missing words in a sentence. In this task, the model receives as input a sentence in which some words are randomly selected and replaced with a special character-mask. The model must then predict the missing words.](*<-lang_en;;*);;
+					
+				*);;
+				
+		*);;

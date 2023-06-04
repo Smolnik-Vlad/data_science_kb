@@ -1,0 +1,59 @@
+USA <- concept_country;;
+USA
+    => nrel_main_idtf:
+    [USA] 
+    (* <- lang_en;; *); 
+  => nrel_main_idtf:  
+    [Соединенные штаты америки]
+    (* <- lang_ru;; *);;
+
+
+
+
+Niderlands <- concept_country;;
+Niderlands
+    => nrel_main_idtf:
+    [Niderlands] 
+    (* <- lang_en;; *); 
+  => nrel_main_idtf:  
+    [Нидерланды]
+    (* <- lang_ru;; *);;
+
+
+UK <- concept_country;;
+UK
+    => nrel_main_idtf:
+    [UK] 
+    (* <- lang_en;; *); 
+  => nrel_main_idtf:  
+    [Великобритания]
+    (* <- lang_ru;; *);;
+
+Ukrain <- concept_country;;
+Ukrain
+    => nrel_main_idtf:
+    [Ukrain] 
+    (* <- lang_en;; *); 
+  => nrel_main_idtf:  
+    [Украина]
+    (* <- lang_ru;; *);;
+
+
+Canada <- concept_country;;
+Canada
+    => nrel_main_idtf:
+    [Canada] 
+    (* <- lang_en;; *); 
+  => nrel_main_idtf:  
+    [Канада]
+    (* <- lang_ru;; *);;
+
+
+Russia <- concept_country;;
+Russia
+    => nrel_main_idtf:
+    [Russia] 
+    (* <- lang_en;; *); 
+  => nrel_main_idtf:  
+    [Россия]
+    (* <- lang_ru;; *);;

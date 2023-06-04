@@ -1,0 +1,28 @@
+Scipy
+    => nrel_main_idtf: [Scipy](*<-lang_en;;*);;
+
+
+Scipy	
+    <-concept_tools_for_solving_ml_problems;
+    <-rrel_key_sc_element:
+...
+(*
+    <- sc_definition;;
+        =>nrel_main_idtf: [Определение: Scipy](*<-lang_ru;;*);;
+        =>nrel_main_idtf: [Definition: Scipy](*<-lang_en;;*);;
+    <-definition;;
+    <=nrel_sc_text_translation: ...
+        (*
+            ->rrel_example:
+            [Библиотека для научных вычислений и технических вычислений на Python. Она предоставляет множество функций для решения различных задач, таких как оптимизация, интегрирование, обработка сигналов, обработка изображений, статистический анализ, алгебра и т.д.](*<-lang_ru;;*);;
+            ->rrel_example:
+            [Is a library for scientific and technical computing in Python. It provides many functions to solve various problems, such as optimization, integration, signal processing, image processing, statistical analysis, algebra, etc.](*<-lang_en;;*);;
+            
+        *);;
+*);;
+
+
+Scipy
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Travis_Olifan;
+	=>nrel_foundation_year: [2001];;

@@ -1,0 +1,47 @@
+ica
+
+	<- sc_node_not_relation;
+	
+	<- concept_ar;
+	
+	=> nrel_main_idtf: 
+		[ICA] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[ICA] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Независимый компонентный анализ (ICA)] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Independent Component Analysis (ICA)] 
+					(* <-lang_en;; *);;
+			
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Метод извлечения скрытых факторов из набора наблюдаемых случайных переменных. Он основан на предположении, что наблюдаемые переменные являются линейными комбинациями некоторых скрытых переменных (которые называются источниками). ](*<-lang_ru;;*);
+					[Method of extracting latent factors from a set of observed random variables. It is based on the assumption that the observed variables are linear combinations of some latent variables (which are called sources).](*<-lang_en;;*);;
+					
+				*);;
+				
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_ar;;
+				*);;
+		*);;
+
+
+ica
+	=>nrel_country_of_origin: UK;
+	=>nrel_creator: Karol_Pirsen;
+	=>nrel_foundation_year: [ 2000 ];;

@@ -1,0 +1,49 @@
+lle
+
+	<- sc_node_not_relation;
+	
+	<- concept_ar;
+	
+	=> nrel_main_idtf: 
+		[LLE] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[LLE] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Локально линейное вложение] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Locally Linear Embedding] 
+					(* <-lang_en;; *);;
+			
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Метод нелинейного снижения размерности данных в машинном обучении и анализе данных. Он используется для поиска скрытых структур в данных, которые могут быть изображены в пространстве меньшей размерности.](*<-lang_ru;;*);
+					[Nonlinear data dimensionality reduction method in machine learning and data analysis. It is used to find hidden structures in data that can be depicted in a lower dimensional space.](*<-lang_en;;*);;
+					
+				*);;
+				
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_ar;;
+				*);;
+
+			
+		*);;
+
+
+lle
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Leonard_Handley;
+	=>nrel_foundation_year: [ 1916 ];;

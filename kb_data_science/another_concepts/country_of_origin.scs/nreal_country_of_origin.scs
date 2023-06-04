@@ -1,0 +1,21 @@
+//Описание отношения года основания
+nrel_country_of_origin <- sc_node_norole_relation;;
+
+nrel_country_of_origin
+  => nrel_main_idtf: 
+    [nrel_country_of_origin] 
+    (* <- lang_en;; *); 
+  => nrel_main_idtf:  
+    [страна-создатель* ]
+    (* <- lang_ru;; *);;
+
+
+nrel_country <- sc_node_norole_relation;;
+
+nrel_country
+  => nrel_main_idtf: 
+    [nrel_country] 
+    (* <- lang_en;; *); 
+  => nrel_main_idtf:  
+    [страна* ]
+    (* <- lang_ru;; *);;

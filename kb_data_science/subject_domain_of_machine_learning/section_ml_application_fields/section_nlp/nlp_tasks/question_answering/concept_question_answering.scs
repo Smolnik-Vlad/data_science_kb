@@ -1,0 +1,32 @@
+concept_question_answering
+	<- concept_nlp_task;
+
+	<- sc_node_not_relation;
+	
+	=> nrel_main_idtf: 
+		[Ответы на вопросы] (* <-lang_ru;; *);
+		[Question Answering] (* <-lang_en;; *);
+
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Ответы на вопросы] 
+					(* <-lang_ru;; *);
+				[Definition: Question Answering]
+					(* <-lang_en;; *);;	
+
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Задача нахождения ответа на вопрос, заданный в естественном языке, используя информацию из заданного контекста. Обычно контекст представляет собой текстовый документ, в котором необходимо найти ответ на вопрос.](*<-lang_ru;;*);
+					[The task of finding an answer to a question posed in natural language using information from a given context. Typically, the context is a text document in which you need to find the answer to a question.](*<-lang_en;;*);;
+					
+				*);;
+				
+		*);;

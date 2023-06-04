@@ -1,0 +1,39 @@
+trpo
+
+	<- sc_node_not_relation;
+	
+	<- concept_rl_on_policy_method;
+	
+	=> nrel_main_idtf: 
+		[TRPO] (* <-lang_ru;; *);
+		[TRPO] (* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Оптимизация политики доверительного региона] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Trust Region Policy Optimization] 
+					(* <-lang_en;; *);;
+			
+				<-definition;;
+				<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Один из алгоритмов обучения с подкреплением (reinforcement learning), который используется для обучения оптимальных стратегий в задачах с непрерывным пространством действий.](*<-lang_ru;;*);
+					[One of the reinforcement learning algorithms used to train optimal strategies in continuous action space problems.](*<-lang_en;;*);;
+				*);;	
+
+		*);;
+		
+
+trpo
+	=>nrel_country_of_origin: UK;
+	=>nrel_creator: John_Schulman;
+	=>nrel_foundation_year: [2015];;
+	 

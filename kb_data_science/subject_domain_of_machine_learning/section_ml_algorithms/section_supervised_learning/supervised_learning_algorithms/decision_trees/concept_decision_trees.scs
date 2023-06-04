@@ -1,0 +1,45 @@
+decision_trees
+
+	<- sc_node_not_relation;
+	
+	<- concept_supervised_learning_algorithm;
+	
+	=> nrel_main_idtf: 
+		[Дерево решений] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[Decision Trees] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Дерево решений] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Decision Trees] 
+					(* <-lang_en;; *);;
+					
+			<= nrel_sc_text_translation: ...
+				(* 
+					-> rrel_example: [graphical models used in machine learning to predict or classify data. They represent a tree structure, where each node represents a test condition, and each branch from a node represents a possible result of that test.](* <-lang_en;;*);
+									[Графические модели, используемые в машинном обучении для прогнозирования или классификации данных. Они представляют собой древовидную структуру, где каждый узел представляет собой условие теста, а каждая ветвь от узла - возможный результат этого теста.](*<-lang_ru;;*);;
+				*);;
+				
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_supervised_learning_algorithm;;
+				*);;
+
+			
+		*);;
+
+decision_trees
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: William_Henry_Cilne;
+	=>nrel_foundation_year: [1960];;

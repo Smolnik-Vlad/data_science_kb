@@ -13,4 +13,4 @@ section_subject_domain_of_reinforcement_learning
 			section_rl_off_policy_methods;
 			section_rl_on_policy_methods;;	
 
-section_reinforcement_learning	<- non_atomic_section;;
+section_subject_domain_of_reinforcement_learning	<- non_atomic_section;;

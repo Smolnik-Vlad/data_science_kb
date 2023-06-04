@@ -1,4 +1,4 @@
-concept_td3
+td3
 
 	<- sc_node_not_relation;
 	
@@ -30,3 +30,8 @@ concept_td3
 					[A reinforcement learning algorithm used for control and management tasks. It is an improved version of the DDPG (Deep Deterministic Policy Gradient) algorithm and uses several innovative techniques to improve its efficiency and stability.](*<-lang_en;;*);;
 				*);;	
 		*);;
+
+td3
+	=>nrel_country_of_origin: UK;
+	=>nrel_creator: Tuomas_Haarnoja;
+	=>nrel_foundation_year: [2018];;

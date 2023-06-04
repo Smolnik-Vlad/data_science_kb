@@ -1,0 +1,215 @@
+Lilian_Vamderburgh <- concept_creator;;
+
+Lilian_Vamderburgh
+    => nrel_main_idtf:
+    [Lilian Vamderburgh] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Лильян Вандербрюгген]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: Niderlands;;
+
+
+Volodymyr_Mnih <- concept_creator;;
+
+Volodymyr_Mnih
+    => nrel_main_idtf:
+    [Volodymyr Mnih] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Владимир Мних]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: Ukrain;;
+
+
+
+Gerhard_Tschentscher <- concept_creator;;
+
+Gerhard_Tschentscher
+    => nrel_main_idtf:
+    [Gerhard Tschentscher] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [ Герхард Штрел]
+    (* <- lang_ru;; *);;
+
+
+
+Tuomas_Haarnoja <- concept_creator;;
+
+Tuomas_Haarnoja
+    => nrel_main_idtf:
+    [Tuomas Haarnoja] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [ Туриян Ашрагхарни]
+    (* <- lang_ru;; *);;
+
+
+
+Richard_Sutton <- concept_creator;;
+
+Richard_Sutton
+    => nrel_main_idtf:
+    [Richard Sutton] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [ Ричардом Саттерлендом]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: Canada;;
+
+
+
+John_Schulman <- concept_creator;;
+
+John_Schulman
+    => nrel_main_idtf:
+    [John Schulman] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Джон Шульман]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: USA;;
+
+
+William_Henry_Cilne <-concept_creator;;
+
+William_Henry_Cilne
+    => nrel_main_idtf:
+    [William_Henry_Cilne] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Уильяма Цилиныса]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: USA;;
+
+
+
+John_Tukey<-concept_creator;;
+John_Tukey
+    => nrel_main_idtf:
+    [John Tukey] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [ Джон Тьюки]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: USA;;
+
+Karol_Pirsen<-concept_creator;;
+Karol_Pirsen
+    => nrel_main_idtf:
+    [Karol Pirson] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Карол Пирсон]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: UK;;
+
+Ronald_Fisher<-concept_creator;;
+Ronald_Fisher
+    => nrel_main_idtf:
+    [Ronald Fisher] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Рональд Фишер]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: USA;;
+
+Leonard_Handley<-concept_creator;;
+
+Leonard_Handley
+    => nrel_main_idtf:
+    [Leonard Handley] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Леонард Хандлей]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: UK;;
+
+
+Leo_Brayman<-concept_creator;;
+Leo_Brayman
+    => nrel_main_idtf:
+    [Leo Brayman] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Лео Брейман]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: USA;;
+
+
+Vladimir_Vapkin<-concept_creator;;
+Vladimir_Vapkin
+    => nrel_main_idtf:
+    [Vladimir Vapkin] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Владимир Вапкин]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: Russia;;
+
+Geoffrey_Hinton<-concept_creator;;
+Geoffrey_Hinton
+    => nrel_main_idtf:
+    [Geoffrey Hinton] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Джофри Хинтон]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: USA;;
+
+Johannes_MacQueen<-concept_creator;;
+Johannes_MacQueen
+    => nrel_main_idtf:
+    [Johannes MacQueen] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Джонас Маквин]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: USA;;
+
+Travis_Olifan<-concept_creator;;
+Travis_Olifan
+    => nrel_main_idtf:
+    [Travis Olifan] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Трэвис Олифан]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: USA;;
+
+ Wes_McKinney<-concept_creator;;
+ Wes_McKinney
+    => nrel_main_idtf:
+    [Wes McKinney] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Вэс Мэкни]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: USA;;
+
+Leon_Botu<-concept_creator;;
+Leon_Botu
+    => nrel_main_idtf:
+    [Leon Botu] 
+    (* <- lang_en;; *); 
+    => nrel_main_idtf:  
+    [Леон Боту]
+    (* <- lang_ru;; *);
+
+    =>nrel_country: USA;;

@@ -1,0 +1,48 @@
+pca
+
+	<- sc_node_not_relation;
+	
+	<- concept_unsupervised_learning_algorithm;
+	
+	=> nrel_main_idtf: 
+		[PCA] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[PCA] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Анализ главных компонент] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: Principal Component Analysis] 
+					(* <-lang_en;; *);;
+			
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Алгоритм снижения размерности, который используется в обучении без учителя для извлечения главных компонент из многомерных данных. Цель PCA - найти линейные комбинации исходных признаков, которые наиболее сильно влияют на изменение данных. ](*<-lang_ru;;*);
+					[A dimensionality reduction algorithm that is used in teacherless learning to extract principal components from multivariate data. The goal of PCA is to find the linear combinations of the original features that most strongly affect the change in the data.](*<-lang_en;;*);;
+					
+				*);;
+				
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_unsupervised_learning_algorithm;;
+				*);;
+
+			
+		*);;
+
+pca
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Karol_Pirsen;
+	=>nrel_foundation_year: [1901 ];;

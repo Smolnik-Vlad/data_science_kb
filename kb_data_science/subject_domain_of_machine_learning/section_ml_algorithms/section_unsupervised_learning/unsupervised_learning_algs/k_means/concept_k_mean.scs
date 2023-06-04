@@ -1,0 +1,49 @@
+k_means
+
+	<- sc_node_not_relation;
+	
+	<- concept_unsupervised_learning_algorithm;
+	
+	=> nrel_main_idtf: 
+		[Метод k средних] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[k-means] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Метод k средних] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: k-means] 
+					(* <-lang_en;; *);;
+			
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Алгоритм без учителя, который разбивает набор данных на кластеры (группы объектов), основываясь на их сходстве друг с другом. Алгоритм ищет центры кластеров и переносит объекты в ближайший кластер на основе расстояния до центра. Часто используется для анализа данных, сжатия изображений и сегментации изображений.](*<-lang_ru;;*);
+					[A teacherless algorithm that splits the dataset into clusters (groups of objects) based on their similarity to each other. The algorithm looks for cluster centers and moves objects to the closest cluster based on the distance to the center. It is often used for data analysis, image compression, and image segmentation.](*<-lang_en;;*);;
+					
+				*);;
+				
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_unsupervised_learning_algorithm;;
+				*);;
+
+			
+		*);;
+
+
+k_means
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Johannes_MacQueen;
+	=>nrel_foundation_year: [ 1967 ];;

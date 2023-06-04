@@ -1,0 +1,29 @@
+NumPy
+    => nrel_main_idtf: [NumPy](*<-lang_en;;*);;
+
+
+
+NumPy
+    <-concept_tools_for_solving_ml_problems;
+
+    <-rrel_key_sc_element:
+...
+(*
+    <- sc_definition;;
+        =>nrel_main_idtf: [Определение: NumPy](*<-lang_ru;;*);;
+        =>nrel_main_idtf: [Definition: NumPy](*<-lang_en;;*);;
+    <-definition;;
+    <=nrel_sc_text_translation: ...
+        (*
+            ->rrel_example:
+            [Библиотека языка программирования Python, предоставляющая удобные и эффективные средства для работы с массивами и матрицами, а также для выполнения математических операций над ними.](*<-lang_ru;;*);;
+            ->rrel_example:
+            [Python programming language library that provides convenient and efficient tools for working with arrays and matrices, as well as for performing mathematical operations on them.](*<-lang_en;;*);;
+            
+        *);;
+*);;
+
+NumPy
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: Travis_Olifan;
+	=>nrel_foundation_year: [2005];;

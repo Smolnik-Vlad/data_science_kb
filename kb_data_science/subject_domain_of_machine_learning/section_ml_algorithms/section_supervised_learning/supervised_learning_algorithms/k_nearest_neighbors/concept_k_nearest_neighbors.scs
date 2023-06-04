@@ -1,0 +1,48 @@
+k_nearest_neighbors
+
+	<- sc_node_not_relation;
+	
+	<- concept_supervised_learning_algorithm;
+	
+	=> nrel_main_idtf: 
+		[Метод k ближайших соседей] 
+			(* <-lang_ru;; *);
+	=> nrel_main_idtf: 
+		[k-Nearest Neighbors] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Метод k ближайших соседей] 
+					(* <-lang_ru;; *);;
+			=> nrel_main_idtf: 
+				[Definition: k-Nearest Neighbors] 
+					(* <-lang_en;; *);;
+					
+				<-definition;;
+					
+				<= nrel_sc_text_translation: ...
+					(* 
+						-> rrel_example: [is a machine learning algorithm that is used to classify and regress data. It is based on the proximity principle, according to which objects that are closer in the feature space tend to have similar characteristics or values of the target variable.](* <-lang_en;;*);
+										[ это алгоритм машинного обучения, который используется для классификации и регрессии данных. Он основывается на принципе близости, согласно которому объекты, находящиеся ближе в пространстве признаков, склонны иметь схожие характеристики или значения целевой переменной.](*<-lang_ru;;*);;
+					*);;
+					
+			<= nrel_using_constants:
+				...
+				(*
+					-> concept_supervised_learning_algorithm;;
+				*);;
+
+			
+		*);;
+
+
+k_nearest_neighbors
+	=>nrel_country_of_origin: USA;
+	=>nrel_creator: John_Tukey;
+	=>nrel_foundation_year: [1950];;

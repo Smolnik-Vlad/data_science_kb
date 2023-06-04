@@ -1,0 +1,27 @@
+//Описание класса creator
+concept_creator <- sc_node_class;;
+
+concept_creator
+  => nrel_main_idtf: 
+    [creator] 
+    (* <- lang_en;; *); 
+  => nrel_main_idtf:  
+    [создатель]
+    (* <- lang_ru;; *);;
+
+concept_creator
+    <- rrel_key_sc_element: 
+        ...
+        (*
+            <- sc_definition;;
+                => nrel_main_idtf: [Определение: создатель] (* <- lang_ru;; *);;
+                => nrel_main_idtf: [Definiton: creator] (* <- lang_en;; *);;
+            <- definiton;;
+                <= nrel_sc_text_translation: ...
+                (*
+                    -> rrel_example:
+                        [ Лицо, создающее что-либо, инициатор проекта, идеи или концепции.];;
+                    -> rrel_example:
+                        [A person or entity who brings something into existence or initiates a project, idea, or concept];;
+                *);;
+        *);;

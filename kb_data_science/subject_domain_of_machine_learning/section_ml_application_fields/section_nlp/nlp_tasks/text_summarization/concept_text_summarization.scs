@@ -1,0 +1,32 @@
+concept_text_summarization
+	<- concept_nlp_task;
+
+	<- sc_node_not_relation;
+	
+	=> nrel_main_idtf: 
+		[Обобщение текста] (* <-lang_ru;; *);
+		[Text Summarization] (* <-lang_en;; *);
+
+
+	<- rrel_key_sc_element:
+		...
+		(*
+		
+			<- sc_definition;;
+			
+			=> nrel_main_idtf: 
+				[Определение: Обобщение текста] 
+					(* <-lang_ru;; *);
+				[Definition: Text Summarization]
+					(* <-lang_en;; *);;	
+
+			<-definition;;
+			<=nrel_sc_text_translation: ...
+				(*
+					->rrel_example:
+					[Задача создания краткого и связного резюме большого текстового документа с сохранением наиболее важных и информативных аспектов исходного содержания. Она включает извлечение ключевых идей, концепций и аргументов из текста и представление их в более краткой форме.](*<-lang_ru;;*);
+					[The task of generating a concise and coherent summary of a larger text document while retaining the most important and informative aspects of the original content. It involves extracting the key ideas, concepts, and arguments from the text and presenting them in a shorter form. ](*<-lang_en;;*);;
+					
+				*);;
+				
+		*);;

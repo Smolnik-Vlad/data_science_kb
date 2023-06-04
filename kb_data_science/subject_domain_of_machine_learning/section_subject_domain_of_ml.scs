@@ -17,8 +17,8 @@ section_subject_domain_of_machine_learning
 		section_subject_domain_of_neural_networks;
 		section_subject_domain_of_ml_optimization_algorithms;
 		section_subject_domain_of_ml_tasks;
-		section_subject_domain_of_ml_application_fields;
-		section_subject_domain_of_tools_for_solving_ml_problems;;
+		section_ml_application_fields;
+		section_tools_for_solving_ml_problems;;
 
 
 

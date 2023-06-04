@@ -1,4 +1,4 @@
-concept_ddpg
+ddpg
 
 	<- sc_node_not_relation;
 	
@@ -30,3 +30,8 @@ concept_ddpg
 					[A reinforcement learning algorithm that is used to solve control and management problems in continuous action spaces. DDPG is an extension of the DPG (Deterministic Policy Gradient) algorithm that was proposed earlier.](*<-lang_en;;*);;
 				*);;	
 		*);;
+
+ddpg	
+	=>nrel_country_of_origin: UK;
+	=>nrel_creator: Lilian_Vamderburgh;
+	=>nrel_foundation_year: [2016];;

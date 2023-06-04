@@ -1,4 +1,4 @@
-concept_sac
+sac
 
 	<- sc_node_not_relation;
 	
@@ -30,3 +30,8 @@ concept_sac
 					[A reinforcement learning algorithm used to solve the problem of training an agent who can choose actions based on the current state of the environment and be rewarded for his actions.](*<-lang_en;;*);;
 				*);;	
 		*);;
+
+sac
+	=>nrel_country_of_origin: UK;
+	=>nrel_creator: Tuomas_Haarnoja;
+	=>nrel_foundation_year: [2018];;

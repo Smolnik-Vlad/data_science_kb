@@ -2,9 +2,9 @@ concept_ml_algorithms->concept_reinforcement_learning;;
 concept_reinforcement_learning <- sc_node_class;;
 
 concept_reinforcement_learning
-=> nrel_main_idtf: ["Обучение с подкреплением"]
+=> nrel_main_idtf: [Обучение с подкреплением]
     (*<-lang_ru;;*);
-=> nrel_main_idtf: ["Reinforcement Learnings"]
+=> nrel_main_idtf: [Reinforcement Learnings]
     (*<-lang_en;;*);
 
     <-rrel_key_sc_element:
